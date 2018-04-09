@@ -1,0 +1,413 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    width: 100%;
+    height: 100%;
+}
+
+#navbar{
+    position: fixed;
+    width: 100%;
+}
+#teamLogo{
+    height: 40px;
+}
+.nav-item{
+    padding-left: 10px;
+}
+.bg-clear{
+    background: none;
+
+}
+.dropdown-item:hover{
+    font-weight: 600;
+    background: none;
+}
+
+#slider{
+    height: 90%;
+    width: 100%;
+    background-image: url('../img/teams2016white.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    
+}
+#sliderContainer{
+    transform: translateY(-10%);
+    width: 60%;
+    height: 50%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+#sliderTitle{
+    transform: translateY(25%);
+    text-transform: uppercase;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 4vw;
+}
+#sliderMain{
+    font-family: 'Raleway', sans-serif;
+    font-size: 6vw;
+}
+#sliderMain span{
+    font-family: 'Raleway', sans-serif;
+    font-size: 8vw;
+}
+#sliderSubtitle{
+    transform: translateY(-25%);
+    font-family: 'Ubuntu', sans-serif;
+    text-transform: uppercase;
+    font-size: 4vw;
+}
+#teamStory{
+    height: 80%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 40px;
+}
+#storyContainer{
+    height: 80%;
+    width: 80%;
+    border: 1px solid red;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+#storyContent{
+    height: 100%;
+    width: 50%;
+    border: 1px solid blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+#storyImage{
+    height: 80%;
+    width: 40%;
+    border: 1px solid green;
+    background-image: url('../img/ourStory.jpg');
+    background-position: center;
+    background-size: cover;
+}
+#storyTitle{
+    height: 15%;
+    width: 80%;
+    background-color: gold;
+}
+#storyDivider{
+    height: 3px;
+    width: 25%;
+    float: left;
+    margin-top: 5%;
+    background: linear-gradient(to right, #13A2E9 50%, #100D53 120%);
+    margin-bottom: 5%;
+}
+#storyBtn-group{
+    width: 50%;
+    height: 10%;
+    background-color: dodgerblue;
+}
+#storyText{
+    height: 50%;
+    width: 90%;
+    background-color: lightgray;
+}
+#storyButton{
+    height: 10%;
+    width: 50%;
+    background-color: navy;
+    color: white;
+    border-radius: 50px;
+    margin-top: 5%;
+}
+
+.lineBold-blue{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    fill: #00428A;
+}
+#touch{
+    height: 40%;
+    width: 100%;
+    background-color: #00428A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#touchContainer{
+    height: 80%;
+    width: 80%;
+    border: 1px solid yellow;
+    display: flex;
+    flex-direction: column;
+}
+#touchTitle{
+    height: 25%;
+    width: 55%;
+    background-color: white;
+}
+#touchSubtitle{
+    margin-top: 5%;
+    height: 40%;
+    width: 45%;
+    background-color: white;
+}
+#touchButton{
+    margin-top: 5%;
+    height: 15%;
+    width: 35%;
+    background-color: white;
+    border-radius: 50px;
+    transform: translateX(150%);
+}
+
+#awards{
+    height: 80%;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#awardsContainer{
+    height: 80%;
+    width: 80%;
+    border: 1px solid yellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#awardsTitle{
+    height: 10%;
+    width: 100%;
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#bannerContainer{
+    height: 90%;
+    width: 100%;
+    border: 1px solid dodgerblue;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+.award{
+    height: 50%;
+    width: 10%;
+    border: 1px solid gray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.awardIMG{
+    height: 90%;
+    width: 100%;
+    background-image: url('../img/bluebanner.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.awardTitle{
+    width: 90%;
+    height: 10%;
+    background-color: lightgrey;
+}
+#events{
+    height: 80%;
+    width: 100%;
+    background-color: #00428A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#eventContainer{
+    height: 80%;
+    width: 80%;
+    border: 1px solid yellow;
+    display: flex;
+    flex-direction: column;
+}
+#eventTitle{
+    height: 15%;
+    width: 55%;
+    background-color: white;
+}
+#eventsContent{
+    height: 85%;
+    width: 100%;
+    border: 1px solid red;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+.event{
+    width: 25%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.eImage{
+    width: 100%;
+    height: 90%;
+    background-image: url('../img/teamEvent.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 25px;
+}
+.eDate{
+    position: absolute;
+    z-index: 2;
+    width: 4%;
+    height: 5%;
+    background-color: white;
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.eLocation{
+    height: 10%;
+    width: 70%;
+    margin: 15px;
+    background-color: white;
+}
+#sponsors{
+    height: 80%;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#opinion{
+    display: flex;
+    flex-direction: column;
+    height: 80%;
+    width: 45%;
+    border: 1px solid red;
+}
+#sponsorContainer{
+    display: flex;
+    flex-wrap: wrap;
+    height: 80%;
+    width: 45%;
+    border: 1px solid blue;
+}
+#opinionTitle{
+    height:10%;
+    width: 50%;
+    background-color: gray;
+}
+#opinionCard{
+    margin-top: 5%;
+    height: 60%;
+    width: 90%;
+    border: 1px solid black;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#opSlide{
+    width: 20%;
+    height: 100%;
+    border: 1px solid red;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#profile{
+    height: 20%;
+    width: 80%;
+    border: 1px solid yellow;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#profileIMG{
+    height: 100%;
+    width: 14%;
+    border-radius: 50px;
+    background-color: tomato;
+}
+#profileTitle{
+    width: 40%;
+    height: 50%;
+    background-color: green;
+    margin-left: 5%;
+}
+#profileOpinion{
+    height: 60%;
+    width: 90%;
+    background-color: firebrick;
+    margin: 25px;
+}
+#data{
+    width: 80%;
+    height: 90%;
+    border: 1px solid red;
+    margin-left: 15px;
+}
+#quote{
+   height: 20%;
+   width: 100%;
+   background-color: deeppink;
+   border-top-right-radius: 50px; 
+}
+#controls{
+   height: 40%;
+   width: 100%;
+   background-color: deepskyblue;
+   border-bottom-right-radius: 50px;
+}
+.sponsor{
+    background-color: navy;
+    height: 50%;
+    width: 50%;
+    border: 1px solid red;
+}
+#social{
+    height: 40%;
+    width: 100%;
+    background-color: #00428A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#map{
+    height: 80%;
+    width: 40%;
+    background-color: purple;
+}
+#media{
+    height: 80%;
+    width: 60%;
+    background-color: olivedrab;
+}
